@@ -11,6 +11,9 @@
 		20A81CB22792F27500BC148C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A81CB12792F27500BC148C /* ContentView.swift */; };
 		20A81CB42792F27800BC148C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A81CB32792F27800BC148C /* Assets.xcassets */; };
 		20A81CB72792F27800BC148C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A81CB62792F27800BC148C /* Preview Assets.xcassets */; };
+		20A81CBE2792F49800BC148C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A81CBD2792F49800BC148C /* Weather.swift */; };
+		20A81CC02792F4A700BC148C /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A81CBF2792F4A700BC148C /* WeatherModel.swift */; };
+		20A81CC22792FDB700BC148C /* TempViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A81CC12792FDB700BC148C /* TempViewmodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		20A81CB12792F27500BC148C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20A81CB32792F27800BC148C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A81CB62792F27800BC148C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20A81CBD2792F49800BC148C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		20A81CBF2792F4A700BC148C /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		20A81CC12792FDB700BC148C /* TempViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				20A81CB12792F27500BC148C /* ContentView.swift */,
 				20A81CB32792F27800BC148C /* Assets.xcassets */,
 				20A81CB52792F27800BC148C /* Preview Content */,
+				20A81CBD2792F49800BC148C /* Weather.swift */,
+				20A81CC12792FDB700BC148C /* TempViewmodel.swift */,
+				20A81CBF2792F4A700BC148C /* WeatherModel.swift */,
 			);
 			path = OpenWeatherBless;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A81CC22792FDB700BC148C /* TempViewmodel.swift in Sources */,
 				20A81CB22792F27500BC148C /* ContentView.swift in Sources */,
+				20A81CBE2792F49800BC148C /* Weather.swift in Sources */,
+				20A81CC02792F4A700BC148C /* WeatherModel.swift in Sources */,
 				20A81CB02792F27500BC148C /* OpenWeatherBlessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
